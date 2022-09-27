@@ -14,3 +14,4 @@ for i in range(total):
         summa = summa + 1
 percent = summa/total * 100
 print(f"Процент выигрыша равен {percent}")
+
