@@ -6,11 +6,11 @@ while True:
                        "        4 для выхода из программы\n"))
     if choice == 1:
         number = input("Введите номер: ")
-        new_number = number.lstrip(' ')
+        new_number = number.replace(" ", "")
         if (len(new_number) > 12) or (len(new_number) < 10):
             print("Введен некорректный номер")
             continue
-        if (number.startswith("9") is True) and (len(number) == 10):
+        if (number.startswith("9") is True) and (len(new_number) == 10):
             new_number = new_number.replace("9", "+79", 1)
         if number.startswith("7") is True:
             new_number = new_number.replace("7", "+7")
@@ -23,6 +23,7 @@ while True:
         print(d)
     elif choice == 2:
         name = input("Выберите имя, которое хотите удалить: ")
+        name = name.title()
         del d[name]
         print(d)
     elif choice == 3:
