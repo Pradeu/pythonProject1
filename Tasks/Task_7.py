@@ -1,3 +1,4 @@
+# 1.7
 a = int(input()) * 3600
 a1 = int(input()) * 60
 a2 = int(input())

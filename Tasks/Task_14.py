@@ -1,3 +1,4 @@
+# 2.7
 a = int(input())
 if a % 100 == 0:
     print(int(a / 100))

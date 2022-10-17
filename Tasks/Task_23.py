@@ -1,0 +1,6 @@
+# 4.1
+a = int(input())
+if a % 2 == 0:
+    print('чёт')
+else:
+    print('нечёт')

@@ -1,3 +1,4 @@
+# 2.8
 a = int(input())
 if a % 7 < 4:
     print(int(a % 7) + 3)
