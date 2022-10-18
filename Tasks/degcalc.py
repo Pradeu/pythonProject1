@@ -9,7 +9,7 @@ def deg_to_gms(deg):
 
 
 def gms_to_deg(degrees, minutes, seconds):
-    deg = degrees + minutes/60 + seconds/3600
+    deg = degrees + minutes / 60 + seconds / 3600
     return deg
 
 
