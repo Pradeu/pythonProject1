@@ -4,7 +4,7 @@ from math import pi
 def deg_to_gms(deg):
     degrees = int(deg)
     minutes = int((deg - degrees) * 60)
-    seconds = int(((deg - degrees) * 60 - minutes) * 60)
+    seconds = ((deg - degrees) * 60 - minutes) * 60
     return f"{degrees}° {minutes}' {seconds}''"
 
 
@@ -29,4 +29,4 @@ print(gms_to_deg(36, 58, 11))
 
 print(deg_to_rad(36.97))
 
-print(rad_to_deg(0.645))
+print(rad_to_deg(deg_to_rad(36.97)))
