@@ -23,10 +23,12 @@ def rad_to_deg(rad):
     return deg
 
 
-print(deg_to_gms(36.97))
+if __name__ == '__main__':
 
-print(gms_to_deg(36, 58, 11))
+    print(deg_to_gms(36.97))
 
-print(deg_to_rad(36.97))
+    print(gms_to_deg(36, 58, 11))
 
-print(rad_to_deg(deg_to_rad(36.97)))
+    print(deg_to_rad(36.97))
+
+    print(rad_to_deg(deg_to_rad(36.97)))
