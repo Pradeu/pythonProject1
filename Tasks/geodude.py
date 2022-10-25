@@ -11,8 +11,8 @@ def spisok(*args, **kwargs):
     a = 0
     s = []
     for i in args:
-        a += 1
         s.append(f"Point_{a} = {degcalc.deg_to_gms(i)}")
+        a += 1
     for i, j in kwargs.items():
         s.append(f"{i} = {degcalc.deg_to_gms(j)}")
     return s
