@@ -1,7 +1,7 @@
 # Чтение из файла
 
 text = open('Words.txt', mode='r', buffering=-1, encoding=None,
-          errors=None, newline=None, closefd=True, opener=None)
+            errors=None, newline=None, closefd=True, opener=None)
     #
     # -> https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-open/
     # :param file: абсолютное или относительное значение пути к файлу или файловый дескриптор открываемого файла.
@@ -79,6 +79,7 @@ new_text = open("new_text.txt", mode='a') # Режим доступа 'a' - От
                                           # То есть файл находится в режиме добавления.
                                           # Если файл не существует, он создает новый файл для записи.
 new_text.write('New_line_MOD_"a"')
+
 new_text.close()
 
 # Смешанные режимы для чтения и записи файла одновременно
@@ -87,6 +88,7 @@ new_text.close()
 new_text = open("new_text.txt", mode='r+') # 'r+' - Открывает файл для чтения и записи.
                                            # Указатель файла помещается в начало файла.
 new_text.write('WRITE_MOD_"r+"')
+
 new_text.close()
 
 # Режим доступа 'w+'
