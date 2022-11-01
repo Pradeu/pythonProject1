@@ -1,6 +1,6 @@
-def words_generate():
-
-
 def record_generate():
-    Record = open("C:\Users\Student\PycharmProjects\pythonProject1\Tasks\Pole_Chudes\Record.txt", mode="w+")
-    if
+    cur_record = 0
+    max_record = open("Record.txt", mode="w+")
+
+    if int(max_record.readline()) < cur_record:
+        max_record.write(str(cur_record))
