@@ -1,3 +1,3 @@
-import Modules
+import game_lib
 
-Modules.game_start()
+game_lib.game_start()
