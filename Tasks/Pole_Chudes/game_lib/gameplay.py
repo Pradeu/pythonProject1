@@ -38,4 +38,5 @@ def game_start():
                 print(f"Вы проиграли!\n")
                 print(f"Ваш рекорд: {game_record.record_generate(cur_record)}")
 
+
 game_start()
