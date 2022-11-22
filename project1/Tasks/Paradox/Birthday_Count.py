@@ -12,4 +12,3 @@ def gois(a, b):
                 break
             list_1.append(c)
     return (f'Процент совпадений д.р. равен = {summa / b * 100}')
-

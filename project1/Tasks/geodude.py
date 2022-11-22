@@ -3,7 +3,7 @@ from random import randint
 
 
 def rand_coord():
-    a = randint(1*100000, 360*100000)
+    a = randint(1 * 100000, 360 * 100000)
     return a / 100000
 
 

@@ -7,5 +7,5 @@ while i < 3:
         s = s + int(a / 2)
     else:
         s = s + int(a / 2) + 1
-    i = i+1
+    i = i + 1
 print(s)

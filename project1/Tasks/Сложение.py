@@ -12,11 +12,11 @@ while lives != 0:
         print(f"Введите число")
         continue
     answer = int(answer)
-    if answer > (a+b):
+    if answer > (a + b):
         print(f"Введенное число больше")
         lives -= 1
         print(f'Ваше количество жизней: {lives}')
-    elif answer < (a+b):
+    elif answer < (a + b):
         print("Введенное число меньше")
         lives -= 1
         print(f'Ваше количество жизней: {lives}')

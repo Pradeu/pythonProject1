@@ -24,7 +24,6 @@ def rad_to_deg(rad):
 
 
 if __name__ == '__main__':
-
     print(deg_to_gms(36.97))
 
     print(gms_to_deg(36, 58, 11))

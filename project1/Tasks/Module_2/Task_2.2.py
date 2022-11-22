@@ -2,4 +2,4 @@
 a = int(input())
 b = a // 10
 c = a - b * 10
-print (c * 10 + b)
+print(c * 10 + b)

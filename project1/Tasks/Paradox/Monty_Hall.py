@@ -1,6 +1,7 @@
 import random
 
-#random(a)
+
+# random(a)
 def gois_2(total):
     a = [0, 1, 0]
     summa = 0
@@ -13,5 +14,5 @@ def gois_2(total):
             d.pop(0)
         if d[0] == 1:
             summa = summa + 1
-    percent = summa/total * 100
-    return(f"Процент выигрыша равен {percent}")
+    percent = summa / total * 100
+    return (f"Процент выигрыша равен {percent}")
