@@ -8,5 +8,5 @@ while info != '':
             form_info = f"[{info[6]}]: Поезд № {info[1]} {info[3]} {info[4]}"
             print(form_info)
             form_log.write(f"{form_info}\n")
-        info = train_log.readline().rstrip('\n')
 
+        info = train_log.readline().rstrip('\n')
